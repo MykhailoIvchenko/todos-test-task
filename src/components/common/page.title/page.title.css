@@ -1,0 +1,6 @@
+@import '/src/styles/_vars.css';
+
+.PageTitle {
+  margin: var(--standard-gap) 0;
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.TaskListItem {
+  cursor: pointer;
+  text-align: left;
+}
+
+.TaskListItem-Status {
+  font-weight: 500;
+  color: green;
+}
+
+.TaskListItem-Status_Active {
+  color: orange;
+}
+
+.TaskListItem-Delete {
+  margin-left: var(--standard-gap);
+  color: red;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+

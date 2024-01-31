@@ -1,0 +1,19 @@
+.Loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Loader > * {
+  position: static;
+}
+
+.Loader > * > * > * {
+  position: static !important;
+}
+
+.Loader > * > * > * > *:last-child {
+  left: 0;
+}

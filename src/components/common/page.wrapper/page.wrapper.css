@@ -1,0 +1,8 @@
+@import '/src/styles/_vars.css';
+
+.PageWrapper {
+  max-width: 1280px;
+  padding: 0 var(--standard-gap);
+  margin: 0 auto;
+  max-height: calc(100vh - var(--header-height));
+}

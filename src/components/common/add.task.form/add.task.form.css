@@ -1,0 +1,8 @@
+.AddTaskForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.AddTaskForm-StatusLabel {
+  min-width: 160px;
+}

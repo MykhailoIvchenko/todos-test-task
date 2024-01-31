@@ -1,0 +1,21 @@
+.TasksCalendar-Events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.TasksCalendar-Month {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.TasksCalendar-MonthItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-picker-calendar-date-content {
+  max-height: 80px;
+}

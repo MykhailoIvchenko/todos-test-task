@@ -1,0 +1,31 @@
+@import '/src/styles/_vars.css';
+
+.Header {
+  height: var(--header-height);
+  padding: var(--standard-gap);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.NavMenu {
+
+}
+
+.NavMenu-Item {
+  margin: 0 calc(var(--standard-gap) / 2);
+}
+
+.NavLink {
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.NavLink_Active {
+  color: var(--controls-bg-color);
+}
